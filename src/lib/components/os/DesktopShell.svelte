@@ -16,7 +16,7 @@
 		{ id: 'images', label: 'Galería DCIM', icon: '🖼️' },
 		{ id: 'history', label: 'Navegador Web', icon: '🌐' },
 		{ id: 'notes', label: 'Notas de Texto', icon: '📝' },
-		{ id: 'terminal', label: 'Última Sesión', icon: '⚡', badge: 'REC' }
+		{ id: 'terminal', label: 'Registro de Sesión', icon: '⚡', badge: 'REC' }
 	];
 
 	/**
