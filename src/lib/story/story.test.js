@@ -107,7 +107,7 @@ describe('Story Data & Narrative Integrity', () => {
 		expect(FINAL_TRACE.id).toBe('final_trace_session');
 		expect(FINAL_TRACE.sessionDate).toBe('2026-09-17');
 		expect(FINAL_TRACE.status).toContain('LOGOUT_EVENT_UNAVAILABLE');
-		expect(FINAL_TRACE.unsentBuffer).toContain('could not be verified');
+		expect(FINAL_TRACE.unsentBuffer).toContain('no se puede verificar');
 	});
 
 	it('correctly evaluates canonical ending eligibility based on player exploration', () => {
