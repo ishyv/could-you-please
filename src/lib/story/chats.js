@@ -65,6 +65,78 @@ export const STORY_CHATS = [
 				text: 'de una, milanesas en lo del tano'
 			},
 			{
+				id: 'msg_p_6a',
+				threadId: 'chat_player',
+				authorId: 'FRIEND',
+				timestamp: '2026-08-28T18:47:00',
+				dateLabel: '28 Ago',
+				timeLabel: '18:47',
+				text: 'ah y no borres la llave ssh que te dejé a mi workstation. si vuelve a morir el runner este finde prefiero que entres vos antes que llamar a soporte'
+			},
+			{
+				id: 'msg_p_6b',
+				threadId: 'chat_player',
+				authorId: 'PLAYER',
+				timestamp: '2026-08-28T18:49:00',
+				dateLabel: '28 Ago',
+				timeLabel: '18:49',
+				text: 'guardada. igual si entro y encuentro tus 400 tabs de stackoverflow no me hago responsable'
+			},
+			{
+				id: 'msg_p_6c',
+				threadId: 'chat_player',
+				authorId: 'FRIEND',
+				timestamp: '2026-08-28T18:50:00',
+				dateLabel: '28 Ago',
+				timeLabel: '18:50',
+				text: 'eso se llama documentación viva, respetá a los mayores'
+			},
+			{
+				id: 'msg_p_6d',
+				threadId: 'chat_player',
+				authorId: 'FRIEND',
+				timestamp: '2026-08-30T17:26:00',
+				dateLabel: '30 Ago',
+				timeLabel: '17:26',
+				text: 'sofi encontró la foto del asado del año pasado y pregunta cuándo volvés porque según ella sos el único adulto que sabe jugar mario kart'
+			},
+			{
+				id: 'msg_p_6e',
+				threadId: 'chat_player',
+				authorId: 'PLAYER',
+				timestamp: '2026-08-30T17:31:00',
+				dateLabel: '30 Ago',
+				timeLabel: '17:31',
+				text: 'decile que el domingo tiene revancha. esta vez no la dejo ganar'
+			},
+			{
+				id: 'msg_p_6f',
+				threadId: 'chat_player',
+				authorId: 'FRIEND',
+				timestamp: '2026-08-30T17:33:00',
+				dateLabel: '30 Ago',
+				timeLabel: '17:33',
+				text: 'mentiroso, te hizo mierda sin ayuda jajaja. Elena pregunta si seguís tomando el café sin azúcar'
+			},
+			{
+				id: 'msg_p_6g',
+				threadId: 'chat_player',
+				authorId: 'PLAYER',
+				timestamp: '2026-09-01T08:12:00',
+				dateLabel: '01 Sep',
+				timeLabel: '08:12',
+				text: 'gracias por cubrirme la guardia ayer. te la devuelvo cuando quieras'
+			},
+			{
+				id: 'msg_p_6h',
+				threadId: 'chat_player',
+				authorId: 'FRIEND',
+				timestamp: '2026-09-01T08:16:00',
+				dateLabel: '01 Sep',
+				timeLabel: '08:16',
+				text: 'ni me jodas con eso. para eso estamos hermano'
+			},
+			{
 				id: 'msg_p_7',
 				threadId: 'chat_player',
 				authorId: 'PLAYER',
@@ -612,6 +684,144 @@ export const STORY_CHATS = [
 				dateLabel: '19 Sep',
 				timeLabel: '03:52',
 				text: 'Borren los chats de este grupo YA. Borren cualquier archivo o link que hayan descargado. No me vuelvan a escribir por acá.'
+			}
+		]
+	},
+	{
+		id: 'chat_vektor_private',
+		title: 'Vektor (Privado)',
+		subtitle: '@0x_vektor • Telegram',
+		participantIds: ['FRIEND', 'CYBER_FRIEND'],
+		lastMessagePreview: 'Gabriel: No. Solo necesito que sea una vez.',
+		lastTimestamp: '11 Sep, 00:38',
+		unread: false,
+		category: 'group',
+		messages: [
+			{
+				id: 'msg_vp_1',
+				threadId: 'chat_vektor_private',
+				authorId: 'FRIEND',
+				timestamp: '2026-09-07T02:19:00',
+				dateLabel: '07 Sep',
+				timeLabel: '02:19',
+				text: 'Lo de 22 es real?'
+			},
+			{
+				id: 'msg_vp_2',
+				threadId: 'chat_vektor_private',
+				authorId: 'CYBER_FRIEND',
+				timestamp: '2026-09-07T02:22:00',
+				dateLabel: '07 Sep',
+				timeLabel: '02:22',
+				text: 'Sí. No te pagan por tocar plata. Pagan por una copia verificable y acceso suficiente para que ellos hagan el resto.'
+			},
+			{
+				id: 'msg_vp_3',
+				threadId: 'chat_vektor_private',
+				authorId: 'FRIEND',
+				timestamp: '2026-09-07T02:24:00',
+				dateLabel: '07 Sep',
+				timeLabel: '02:24',
+				text: 'Si después usan eso para vaciar cuentas soy parte igual.'
+			},
+			{
+				id: 'msg_vp_4',
+				threadId: 'chat_vektor_private',
+				authorId: 'CYBER_FRIEND',
+				timestamp: '2026-09-07T02:27:00',
+				dateLabel: '07 Sep',
+				timeLabel: '02:27',
+				text: 'Sos parte si decidís serlo. Pero tampoco me vendas la moral de una empresa que te saca el bono mientras tu casa se prende fuego.'
+			},
+			{
+				id: 'msg_vp_5',
+				threadId: 'chat_vektor_private',
+				authorId: 'FRIEND',
+				timestamp: '2026-09-07T02:33:00',
+				dateLabel: '07 Sep',
+				timeLabel: '02:33',
+				text: 'No metas a mi familia en esto.'
+			},
+			{
+				id: 'msg_vp_6',
+				threadId: 'chat_vektor_private',
+				authorId: 'CYBER_FRIEND',
+				timestamp: '2026-09-07T02:35:00',
+				dateLabel: '07 Sep',
+				timeLabel: '02:35',
+				text: 'Entonces no la meto. Te pregunto una sola cosa: cuánto te falta para respirar este mes?'
+			},
+			{
+				id: 'msg_vp_7',
+				threadId: 'chat_vektor_private',
+				authorId: 'FRIEND',
+				timestamp: '2026-09-07T02:41:00',
+				dateLabel: '07 Sep',
+				timeLabel: '02:41',
+				text: 'Más de lo que puedo conseguir legalmente en una semana.'
+			},
+			{
+				id: 'msg_vp_8',
+				threadId: 'chat_vektor_private',
+				authorId: 'CYBER_FRIEND',
+				timestamp: '2026-09-07T02:45:00',
+				dateLabel: '07 Sep',
+				timeLabel: '02:45',
+				text: 'Puedo adelantarte 1500 cuando vea una muestra válida. El resto después. Si decís que no, acá termina.'
+			},
+			{
+				id: 'msg_vp_9',
+				threadId: 'chat_vektor_private',
+				authorId: 'FRIEND',
+				timestamp: '2026-09-07T03:02:00',
+				dateLabel: '07 Sep',
+				timeLabel: '03:02',
+				text: 'Necesito pensarlo.'
+			},
+			{
+				id: 'msg_vp_10',
+				threadId: 'chat_vektor_private',
+				authorId: 'CYBER_FRIEND',
+				timestamp: '2026-09-08T23:48:00',
+				dateLabel: '08 Sep',
+				timeLabel: '23:48',
+				text: '?'
+			},
+			{
+				id: 'msg_vp_11',
+				threadId: 'chat_vektor_private',
+				authorId: 'FRIEND',
+				timestamp: '2026-09-09T00:06:00',
+				dateLabel: '09 Sep',
+				timeLabel: '00:06',
+				text: 'Mandame los requisitos. Solo requisitos. No prometo nada.'
+			},
+			{
+				id: 'msg_vp_12',
+				threadId: 'chat_vektor_private',
+				authorId: 'FRIEND',
+				timestamp: '2026-09-11T00:31:00',
+				dateLabel: '11 Sep',
+				timeLabel: '00:31',
+				text: 'Si hago esto no quiero nombres, ni caras, ni saber qué hacen después con el material.'
+			},
+			{
+				id: 'msg_vp_13',
+				threadId: 'chat_vektor_private',
+				authorId: 'CYBER_FRIEND',
+				timestamp: '2026-09-11T00:36:00',
+				dateLabel: '11 Sep',
+				timeLabel: '00:36',
+				text: 'Eso es lo normal.'
+			},
+			{
+				id: 'msg_vp_14',
+				threadId: 'chat_vektor_private',
+				authorId: 'FRIEND',
+				timestamp: '2026-09-11T00:38:00',
+				dateLabel: '11 Sep',
+				timeLabel: '00:38',
+				text: 'No. No es normal. Solo necesito que sea una vez.'
 			}
 		]
 	}
