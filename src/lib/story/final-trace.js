@@ -11,5 +11,5 @@ export const FINAL_TRACE = {
 	unclosedSocket:
 		'ESTABLISHED tcp [local]:54881 -> 185.220.101.44:8443 (estado final no registrado)',
 	unsentBuffer:
-		'terminal bash session 14892 ended without a complete shutdown record. Staging dump chunk 4/4 was prepared locally (182 MB). Remote acknowledgement is missing; transfer completion could not be verified.'
+		'la sesión bash 14892 terminó sin un registro de cierre completo. El fragmento 4/4 del volcado quedó preparado localmente (182 MB). Falta la confirmación del host remoto; no se puede verificar si la transferencia terminó.'
 };
