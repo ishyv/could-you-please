@@ -23,7 +23,7 @@
 			</span>
 		</div>
 		<p class="mt-1 text-[10px] text-neutral-500 sm:text-[11px]">
-			Host: {FINAL_TRACE.remoteHost} (190.19.144.112)
+			Host: {FINAL_TRACE.remoteHost} • Origen: {FINAL_TRACE.ipAddress}
 		</p>
 	</div>
 
@@ -85,9 +85,7 @@
 		<div
 			class="border-t border-neutral-800/80 pt-3 text-[10px] leading-relaxed text-neutral-500 italic sm:text-[11px]"
 		>
-			Nota de la sesión: El equipo remoto continúa respondiendo a pings de enlace en la red local,
-			pero no existen nuevos procesos de usuario ni actividad interactiva posterior a las 05:01 hs
-			del 19 de septiembre.
+			Nota de la sesión: este registro termina de forma incompleta. No existe un evento de cierre confiable ni confirmación del destino final de los datos preparados durante la sesión. La actividad posterior no puede reconstruirse desde este fragmento.
 		</div>
 	</div>
 </div>

@@ -27,7 +27,7 @@
 				<span class="text-xs font-semibold tracking-wider text-neutral-400 uppercase"
 					>Conversaciones</span
 				>
-				<span class="font-mono text-[10px] text-neutral-500">4 hilos</span>
+				<span class="font-mono text-[10px] text-neutral-500">{STORY_CHATS.length} hilos</span>
 			</div>
 		</div>
 

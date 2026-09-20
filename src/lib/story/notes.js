@@ -58,5 +58,28 @@ export const STORY_NOTES = [
 			'',
 			'Perdoname. Por favor perdoname.'
 		]
+	},
+	{
+		id: 'note_4',
+		title: 'agenda_17-18.txt',
+		timestamp: '2026-09-16T23:18:00',
+		dateLabel: '16 Sep',
+		type: 'scratchpad',
+		content: [
+			'-- JUEVES 17 --',
+			'03:00  V.',
+			'08:00  ventana de auditoría',
+			'17:30  Sofi / confirmar con Elena',
+			'',
+			'-- VIERNES 18 --',
+			'09:00  RRHH + Legal',
+			'11:30  llamar inmobiliaria',
+			'',
+			'[ ] dejar sobre en placard',
+			'[ ] cargar nafta',
+			'[ ] copia de documentos',
+			'',
+			'No prometer nada más.'
+		]
 	}
 ];
