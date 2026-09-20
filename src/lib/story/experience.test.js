@@ -45,7 +45,7 @@ describe('Complete Player Experience Lifecycle', () => {
 		expect(storyStore.screenLuminance).toBe(0.4);
 	});
 
-	it('steps through all 4 conversations and tracks narrative context', () => {
+	it('steps through the four core thematic conversations and tracks narrative context', () => {
 		// 1. Read PLAYER conversation (Baseline: warm, witty, normal friend)
 		storyStore.selectChatThread('chat_player');
 		expect(storyStore.activeChatThreadId).toBe('chat_player');
