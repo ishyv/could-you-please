@@ -31,12 +31,13 @@ describe('Story Data & Narrative Integrity', () => {
 		}
 	});
 
-	it('contains the 4 required chat threads with valid participants and messages', () => {
+	it('contains the required chat threads with valid participants and messages', () => {
 		const threadIds = STORY_CHATS.map((t) => t.id);
 		expect(threadIds).toContain('chat_player');
 		expect(threadIds).toContain('chat_cfo');
 		expect(threadIds).toContain('chat_wife');
 		expect(threadIds).toContain('chat_group');
+		expect(threadIds).toContain('chat_vektor_private');
 
 		for (const thread of STORY_CHATS) {
 			expect(thread.messages.length).toBeGreaterThan(0);
@@ -104,8 +105,9 @@ describe('Story Data & Narrative Integrity', () => {
 
 	it('contains valid final trace data with unclosed session markers', () => {
 		expect(FINAL_TRACE.id).toBe('final_trace_session');
-		expect(FINAL_TRACE.sessionDate).toBe('2026-09-19');
+		expect(FINAL_TRACE.sessionDate).toBe('2026-09-17');
 		expect(FINAL_TRACE.status).toContain('LOGOUT_EVENT_UNAVAILABLE');
+		expect(FINAL_TRACE.unsentBuffer).toContain('could not be verified');
 	});
 
 	it('correctly evaluates canonical ending eligibility based on player exploration', () => {
